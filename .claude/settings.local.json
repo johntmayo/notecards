@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"C:/projects/speaker series\" && npm create vite@latest . -- --template react-ts --yes 2>&1)",
+      "Bash(cd \"C:/projects/speaker series\" && echo y | npx create-vite@latest . --template react-ts 2>&1)",
+      "Bash(cd \"C:/projects/speaker series\" && printf '\\\\n' | npx create-vite@latest . --template react-ts 2>&1)",
+      "Bash(cd \"C:/projects/speaker series\" && npm install 2>&1)",
+      "Bash(cd \"C:/projects/speaker series\" && npx tsc -p tsconfig.app.json --noEmit 2>&1)"
+    ]
+  }
+}
